@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="637" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="4.3.22.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[AopUtil]AopUtil.WpfBinding.AutoNotifyAttribute">
+    <Instance Declaration="#2=P:[VideoARDemo]VideoARDemo.VideoARViewModel::TextString()" Id="3a09aabef5d117e9">
+      <Target>
+        <JoinPoint Advised="#3=M:[VideoARDemo]VideoARDemo.VideoARViewModel::get_TextString()" Advising="#1" Description="#4=Intercepted by advice " Semantic="Getter" Ordinal="0" />
+        <JoinPoint Advised="#5=M:[VideoARDemo]VideoARDemo.VideoARViewModel::set_TextString(System.String)" Advising="#1" Description="#6=Intercepted by advice OnSetValue" Semantic="Setter" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::VideoId()" Id="3a09aabe5e844fc9">
+      <Target>
+        <JoinPoint Advised="#8=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_VideoId()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#9=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_VideoId(System.String)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#10=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::ImageSrc()" Id="3a09aabe27b3d338">
+      <Target>
+        <JoinPoint Advised="#11=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_ImageSrc()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="4" />
+        <JoinPoint Advised="#12=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_ImageSrc(System.Windows.Media.ImageSource)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#13=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::StretchMode()" Id="3a09aabebf94e244">
+      <Target>
+        <JoinPoint Advised="#14=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_StretchMode()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="6" />
+        <JoinPoint Advised="#15=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_StretchMode(System.Windows.Media.Stretch)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#16=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::VideoName()" Id="3a09aabe0b5ad383">
+      <Target>
+        <JoinPoint Advised="#17=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_VideoName()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="8" />
+        <JoinPoint Advised="#18=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_VideoName(System.String)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="9" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#19=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::Width()" Id="3a09aabeab7fbf66">
+      <Target>
+        <JoinPoint Advised="#20=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_Width()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="10" />
+        <JoinPoint Advised="#21=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_Width(System.Int32)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#22=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::Height()" Id="3a09aabee81c97bf">
+      <Target>
+        <JoinPoint Advised="#23=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_Height()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="12" />
+        <JoinPoint Advised="#24=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_Height(System.Int32)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="13" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#25=P:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::LastImageTime()" Id="3a09aabe2d16a2e8">
+      <Target>
+        <JoinPoint Advised="#26=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::get_LastImageTime()" Advising="#1" Description="#4" Semantic="Getter" Ordinal="14" />
+        <JoinPoint Advised="#27=M:[VideoARDemo]VideoARDemo.VideoDisplayViewModel::set_LastImageTime(System.DateTime)" Advising="#1" Description="#6" Semantic="Setter" Ordinal="15" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#28=M:[PostSharp]PostSharp.Aspects.LocationInterceptionAspect::OnGetValue([PostSharp]PostSharp.Aspects.LocationInterceptionArgs)" Arguments="#29=2" Description="#30=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>
